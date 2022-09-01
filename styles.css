@@ -113,6 +113,7 @@ body {
 .list__item {
     font-size: 1.5rem;
     list-style: none;
+    word-break: break-all;
 }
 
 .item--complete {
@@ -124,6 +125,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: start;
+    margin-left: 8%;
 }
 
 .list__btn--done {
