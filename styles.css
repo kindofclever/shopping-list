@@ -112,6 +112,10 @@ body {
     padding: 2% 0;
 }
 
+.list__itemcontainer:last-child {
+    border-bottom: solid rgba(253, 52, 250, 0) 1px;
+}
+
 .list__item {
     font-size: 1.5rem;
     list-style: none;
