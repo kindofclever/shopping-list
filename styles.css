@@ -110,6 +110,11 @@ body {
     margin: 1% 0 0 3%;
 }
 
+.list__item {
+    font-size: 1.5rem;
+    list-style: none;
+}
+
 .item--complete {
     text-decoration: line-through;
 }
@@ -171,6 +176,18 @@ body {
     .input__btn--add {
         font-size: 1.4rem;
     }
+
+    .list__item {
+        font-size: 1.6rem;
+    }
+
+    .list__btn--done {
+        font-size: 1.4rem;
+    }
+
+    .list__btn--delete {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (min-width: 767px) {
@@ -192,6 +209,18 @@ body {
     }
 
     .input__btn--add {
+        font-size: 1.5rem;
+    }
+
+    .list__item {
+        font-size: 1.8rem;
+    }
+
+    .list__btn--done {
+        font-size: 1.5rem;
+    }
+
+    .list__btn--delete {
         font-size: 1.5rem;
     }
 }
@@ -231,6 +260,18 @@ body {
     .input__btn--add {
         font-size: 1.6rem;
     }
+
+    .list__item {
+        font-size: 2rem;
+    }
+
+    .list__btn--done {
+        font-size: 1.6rem;
+    }
+
+    .list__btn--delete {
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (min-width: 1020px) {
@@ -262,7 +303,19 @@ body {
     }
 
     .input__btn--add {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
+    }
+
+    .list__item {
+        font-size: 2.2rem;
+    }
+
+    .list__btn--done {
+        font-size: 1.7rem;
+    }
+
+    .list__btn--delete {
+        font-size: 1.7rem;
     }
 }
 
@@ -297,6 +350,18 @@ body {
     }
 
     .input__btn--add {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
+    }
+
+    .list__item {
+        font-size: 2.4rem;
+    }
+
+    .list__btn--done {
+        font-size: 1.8rem;
+    }
+
+    .list__btn--delete {
+        font-size: 1.rem;
     }
 }

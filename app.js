@@ -48,7 +48,7 @@ const createListItem = () => {
     buttonDiv.classList.add('list__btndiv');
     // done button
     const doneButton = document.createElement('button');
-    doneButton.appendChild(document.createTextNode('Done'));
+    doneButton.appendChild(document.createTextNode('Bought'));
     doneButton.classList.add('list__btn--done');
     buttonDiv.appendChild(doneButton);
     // delete button
@@ -98,7 +98,7 @@ const getItemsFromLocalStorage = () => {
     buttonDiv.classList.add('list__btndiv');
     // done button
     const doneButton = document.createElement('button');
-    doneButton.appendChild(document.createTextNode('Done'));
+    doneButton.appendChild(document.createTextNode('Bought'));
     doneButton.classList.add('list__btn--done');
     buttonDiv.appendChild(doneButton);
     // delete button
