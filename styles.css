@@ -108,6 +108,8 @@ body {
     align-items: start;
     width: 100%;
     margin: 1% 0 0 3%;
+    border-top: solid rgb(253, 52, 250) 1px;
+    padding: 2% 0;
 }
 
 .list__item {
